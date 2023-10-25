@@ -17,12 +17,13 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
+    "vitest": "^0.34.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test vitest",
     "eject": "react-scripts eject",
     "coverage": "react-scripts test --coverage --watchAll --collectCoverageFrom='src/components/**/*.{ts,tsx}' --collectCoverageFrom='!src/components/**/*.{types,stories,constants,test,spec}.{ts,tsx}'"
   },
@@ -53,5 +54,8 @@
         "statements": -10
       }
     }
+  },
+  "devDependencies": {
+    "msw": "^2.0.0"
   }
 }

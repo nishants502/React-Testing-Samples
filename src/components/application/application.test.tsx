@@ -1,6 +1,8 @@
 import { getAllByPlaceholderText, render, screen } from "@testing-library/react";
 import { Application } from "./Application";
 
+const name= 'Nishant'
+console.log(name)
 describe('Application',()=>{
     test('Renders correctly',()=>{
         render(<Application/>);
