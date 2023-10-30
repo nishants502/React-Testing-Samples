@@ -12,9 +12,9 @@ function App() {
   return (
     <AppProviders>
       <div className="App">
-        {/* <Application/>
-        <Skills skills={skills}/> */}
-        <Counter/>
+        {/* <Application/> */}
+        <Skills skills={skills}/>
+        {/* <Counter/> */}
         {/* <MuiMode/> */}
       </div>
     </AppProviders>
